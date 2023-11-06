@@ -6,7 +6,5 @@ Nosso propósito é fortalecer a generosidade, o desenvolvimento sustentável e 
 ## Quem somos?
 A Donatio é um projeto acadêmico desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistemas. 
 
-## Instalação
-
 
 ## Perguntas frequentes (FAQ)
