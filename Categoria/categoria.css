@@ -1,0 +1,577 @@
+body {
+    background: #fff;
+    margin: 0px;
+}
+
+/*Fonte e Palavras*/
+@font-face {
+    font-family: 'Inter';
+    src: url(/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 35px;
+    font-style: normal;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+/*Imagens da caixa de elementos*/
+#boxThings img {
+    width: 150px;
+    height: 150px;
+    padding-left: 15%;
+    padding-top: -10px;
+    padding-right: 5%;
+    margin-top: 10%;
+}
+
+.imgalimetos {
+    width: 150px;
+    height: 150px;
+    padding-left: 15%;
+    padding-top: -15%;
+    padding-bottom: 1%;
+    margin-top: -50px;
+}
+
+.imgartigos {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+}
+
+.imgbrinquedos {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+}
+
+.imgmoveis {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+
+}
+
+
+.imghigiene {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+}
+
+.imgcasa {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+}
+
+.imgcosmeticos {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+}
+
+.imgferramentas {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+
+}
+
+.imgferramentas {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+
+}
+
+.imgroupas {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+}
+
+.imgpets {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+}
+
+.imgistrumento {
+    width: 170px;
+    height: 160px;
+    margin-left: 9%;
+    margin-right: 20%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.imglivros {
+    width: 150px;
+    height: 150px;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    margin-top: -10px;
+}
+
+.div-link {
+    text-decoration: none;
+}
+
+/*Corpo caixa de elementos*/
+#head {
+    background-color: #3F9775;
+    width: 100vw;
+    height: 150px;
+    padding: 1px;
+    overflow: hidden;
+}
+
+#conteiner {
+    width: 100vw;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#boxThings:hover,
+#boxThings4:hover,
+#boxThings2:hover,
+#boxThings3:hover,
+#boxThings4:hover,
+#boxThings5:hover,
+#boxThings6:hover,
+#boxThings7:hover,
+#boxThings8:hover,
+#boxThings9:hover,
+#boxThings10:hover,
+#boxThings11:hover,
+#boxThings12:hover {
+    background-color: #B8E3D6;
+    transition: 4s;
+}
+
+.imglogo {
+    width: 110px;
+    height: 100px;
+    margin-left: 90%;
+    margin: 0px 0px 30px 1350px;
+    margin-top: -55%;
+
+}
+
+/*Primeira caixa de elementos*/
+#boxThings {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 150px;
+    overflow: hidden;
+
+}
+
+#textBoxThings {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Segunda caixa de elementos*/
+#boxThings2 {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+#textBoxThings2 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Terceira caixa de elementos*/
+#boxThings3 {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+#textBoxThings3 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Quarta caixa de elementos*/
+#boxThings4 {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+#textBoxThings4 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Quinta caixa de elementos*/
+#boxThings5 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 150px;
+    overflow: hidden;
+
+}
+
+#textBoxThings5 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Sexta caixa de elementos*/
+#boxThings6 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+
+}
+
+#textBoxThings6 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Setima caixa de elementos*/
+#boxThings7 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+
+}
+
+#textBoxThings7 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Oitava caixa de elementos*/
+#boxThings8 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+
+}
+
+#textBoxThings8 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Nona caixa de elementos*/
+#boxThings9 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 150px;
+    overflow: hidden;
+
+}
+
+#textBoxThings9 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Decima caixa de elementos*/
+#boxThings10 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+
+}
+
+#textBoxThings10 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Oitava caixa de elementos*/
+#boxThings11 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+
+}
+
+#textBoxThings11 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Decima primeira caixa de elementos*/
+#boxThings11 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+
+}
+
+#textBoxThings11 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Decima segunda caixa de elementos*/
+#boxThings12 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #F5F4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+#textBoxThings12 {
+    color: #63AC97;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+
+/*Botão de proxima tela*/
+
+
+.botao {
+    margin-left: 85vw;
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.proximo {
+
+    /*para deixar o botão flexível*/
+    display: flex;
+
+    /*Tamanho do botão*/
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    
+    /*cor de fundo e borda do botão*/
+    background-color: #3F9775;
+    border-radius: 262px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    /*Definição da cor e o tamnho da font */
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    /*Remover a linha que fica de baixo do texto*/
+    text-decoration: none;
+
+}
+
+.proximo:hover{
+    background-color: #63AC97;
+}
+
+/*area respansiva */
+@media (max-width: 768px) {
+    
+}
