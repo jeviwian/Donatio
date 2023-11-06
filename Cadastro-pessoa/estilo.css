@@ -1,0 +1,296 @@
+body {
+    /* Posicionamento */
+
+    /* Display e Box Model */
+    margin: 0;
+
+    /* Cores */
+
+    /* Texto */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+
+    /* Outros */
+}
+
+html {
+    font-size: 62.5%;
+    /* 10px */
+}
+
+/*--------------------*\
+  FUNDO CINZA
+\*--------------------*/
+main {
+    background-color: #f1f3fa;
+    width: 100%;
+    height: 1900px;
+    padding: 100px 200px;
+}
+
+/*--------------------*\
+QUADRADO GLOBAL
+\*--------------------*/
+.layout-geral {
+    width: 1500px;
+    height: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+/*--------------------*\
+  HEADER VERDE
+\*--------------------*/
+
+.layout-geral-header {
+    background-color: #3e866a;
+    width: 1500px;
+    height: 90px;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+}
+
+/*--------------------*\
+  BODY BRANCO
+\*--------------------*/
+
+.layout-geral-main {
+    background-color: #ffffff;
+    width: 1500px;
+    height: 855px;
+    box-sizing: border-box;
+}
+
+/*--------------------*\
+  HEADER VERDE
+\*--------------------*/
+
+.layout-geral-footer {
+    background-color: #3e866a;
+    width: 1500px;
+    height: 80px;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+}
+
+/*--------------------*\
+  DENTRO DO HEADER VERDE
+\*--------------------*/
+
+.layout-header-logo {
+    padding: 11px;
+    padding-left: 25px;
+}
+
+/*--------------------*\
+  DENTRO DO MAIN - TEXTOS
+\*--------------------*/
+
+.layout-geral-main-texto {
+    height: 300px;
+    width: 1500px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+.layout-geral-main-texto-titulo {
+    width: 950px;
+    height: 53px;
+    font-family: saira, Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.layout-geral-main-texto-titulo>h1 {
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.layout-geral-main-texto-texto {
+    width: 1300px;
+    height: 124px;
+    font-family: saira, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.layout-geral-main-texto-texto>p {
+    text-align: center;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+/*--------------------*\
+  DENTRO DO MAIN - BOTÕES
+\*--------------------*/
+
+/*Tem uma div macro, uma div para pessoa física, uma div para a imagem, edição da imagem em sí, uma div pro parágrafo e a edição do parágrafo em sí*/
+
+
+.layout-geral-main-botoes--centrais {
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.layout-geral-main-botoes--centrais-PessoaFisica {
+    height: 90px;
+    width: 400px;
+    background-color: #A0A0A0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.layout-geral-main-botoes--centrais-PessoaFisica:hover {
+    background-color:  #B6DECE; 
+}
+
+.layout-geral-main-botoes--centrais-PessoaFisica-img {
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.layout-geral-main-botoes--centrais-PessoaFisica-img>img {
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.layout-geral-main-botoes--centrais-PessoaFisica-p {
+    width: 310px;
+    height: 90px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.layout-geral-main-botoes--centrais-PessoaFisica-p>p {
+    width: 100%;
+    height: 90px;
+    font-family: saira, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 15px 15px 0 40px;
+    font-weight: bolder;
+}
+
+/*Tem uma div macro, uma div para pessoa jurídica, uma div para a imagem, edição da imagem em sí, uma div pro parágrafo e a edição do parágrafo em sí*/
+
+.layout-geral-main-botoes--centrais-PessoaJuridica {
+    height: 90px;
+    width: 400px;
+    background-color: #B6DECE;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.layout-geral-main-botoes--centrais-PessoaJuridica-img {
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.layout-geral-main-botoes--centrais-PessoaJuridica-img>img {
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.layout-geral-main-botoes--centrais-PessoaJuridica-p {
+    width: 310px;
+    height: 90px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.layout-geral-main-botoes--centrais-PessoaJuridica-p>p {
+    width: 100%;
+    height: 90px;
+    font-family: saira, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 15px 15px 0 40px;
+    font-weight: bolder;
+}
+
+.layout-geral-main-botoes--centrais-PessoaJuridica {
+    height: 90px;
+    width: 400px;
+    background-color: #A0A0A0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.layout-geral-main-botoes--centrais-PessoaJuridica:hover {
+    height: 90px;
+    width: 400px;
+    background-color: #B6DECE;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*--------------------*\
+  DENTRO DO MAIN - BOTAO PROXIMO
+\*--------------------*/
+
+.layout-geral-main-botoes--laterais {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.layout-geral-main-botoes--laterais-Proximo {
+    float: right;
+    width: 220px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #3F9775;
+    margin-right: 50px;
+    border-radius: 40px;
+}
+
+.layout-geral-main-botoes--laterais-Proximo>p {
+    text-align: center;
+    margin-top: 12px;
+    font-family: saira, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    font-weight: bolder;
+    color: #ffffff;
+}
