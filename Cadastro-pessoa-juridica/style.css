@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rubik:wght@400;500&family=Saira:wght@700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar {
+  background-color: rgb(1, 161, 121) !important;
+}
+
+.text-mid {
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.text-mid p {
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.bloco1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloco2 {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Saira", sans-serif;
+  font-size: 30px;
+}
+
+.balls-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  gap: 10px;
+  cursor: context-menu;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 35px;
+  width: 100%;
+  max-height: 35px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: #3F9775 !important;
+  color: white !important;
+  box-shadow: 0px 1px 10px 2px #f3f3f3;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 35px;
+  width: 100%;
+  max-height: 35px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255) !important;
+  color: #3F9775 !important;
+  box-shadow: 0px 1px 10px 2px #f3f3f3;
+}
+
+.text-bold {
+  font-family: "Saira", sans-serif;
+  margin-bottom: 20px;
+}
+
+.text-mid2 p {
+  font-size: 20px;
+ color: #eb5252;
+  font-weight: 700
+}
+
+.validation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.validation .long {
+  width: 450px;
+  padding-left: 25px;
+  height: 44px;
+  border-radius: 188px;
+  background: #d9d9d9;
+  border: none;
+  margin-bottom: 27px;
+}
+
+.button{
+    margin-top: 134px;
+    margin-bottom: 40px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px;
+  
+}
+
+
+.anterior .buttonn {
+  text-align: center;
+  width: 120px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #3f9775;
+  box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 18px;
+  padding: 10px;
+  align-items: center;
+}
+
+.finalizar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.voltar {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+.voltar .buttonn {
+  text-align: center;
+  width: 120px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #3f9775;
+  box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 18px;
+  padding: 10px;
+  align-items: center;
+
+}
+
+.concordar .buttonn {
+  text-align: center;
+  width: 120px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #3f9775;
+  box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 18px;
+  padding: 10px;
+  align-items: center;
+}
+
+.discordar .buttonn {
+  text-align: center;
+  width: 120px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #3f9775;
+  box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 18px;
+  padding: 10px;
+  align-items: center;
+}
+.botoes-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.proximo-1 {
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.proximo-1 .buttonn {
+  text-align: center;
+  width: 120px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #3f9775;
+  box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 18px;
+  padding: 10px;
+  align-items: center;
+}
+.proximo .buttonn {
+  text-align: center;
+  width: 120px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #3f9775;
+  box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 18px;
+  padding: 10px;
+  align-items: center;
+}
+
+.buttonn:hover{
+  background: #47a883;
+
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35px;
+    width: 100%;
+    max-height: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #454545 !important;
+    color: white !important;
+    box-shadow: 0px 1px 10px 2px #f3f3f3;
+
+}
+
+.box_int {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxx {
+  max-width: 1215px;
+  width: 100%;
+  background-color: #EAEAEA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 39px;
+  margin-bottom: 35px;
+}
+
+.text-mid p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-mid2 {
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 25px
+
+}
+
+.lokinho:hover {
+  background-color: #757575 !important;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* ----------------------------------------------------------------------------------------- */
+/* Telas Pequenas */
+@media (min-width: 249px) and (max-width: 480px) 
+{
+  .navbar {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .row {
+    display: block;
+    flex-direction: column;
+  }
+
+  .validation .long {
+    width: 290px;
+  }
+
+
+
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Telas Médias */
+@media (min-width: 481px)  and (max-width: 1024px) 
+{
+  .navbar {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .row {
+    display: block;
+    flex-direction: column;
+  }
+
+  .validation .long {
+    width: 450px;
+  }
+
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Telas Grandes */
+@media screen and (min-width: 1024px) 
+{
+
+}
+
+/* Geral */
