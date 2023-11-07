@@ -262,35 +262,3 @@ QUADRADO GLOBAL
     margin-top: 20px;
     margin-bottom: 30px;
 }
-
-/*--------------------*\
-  DENTRO DO MAIN - BOTAO PROXIMO
-\*--------------------*/
-
-.layout-geral-main-botoes--laterais {
-    height: 100px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.layout-geral-main-botoes--laterais-Proximo {
-    float: right;
-    width: 220px;
-    height: 60px;
-    box-sizing: border-box;
-    background-color: #3F9775;
-    margin-right: 50px;
-    border-radius: 40px;
-}
-
-.layout-geral-main-botoes--laterais-Proximo>p {
-    text-align: center;
-    margin-top: 12px;
-    font-family: saira, Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    font-weight: bolder;
-    color: #ffffff;
-}
